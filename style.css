@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Irish Grover' serif;
+}
+
+
+body{
+    background: #fcfcfc;
+    color: aliceblue;
+}
+
+.Header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #D83425;
+    padding: 50px, 120px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Header h1{
+    display: left;
+    font-size: 96px;
+    font-weight: 300;
+    font-family: 'Irish Grover';
+    margin-bottom: 20px;
+}
+
+.hero-text h3{
+    font-family: 'Irish Grover';
+}
+
+.hero-text button{
+    padding: 17px;
+    display: flex;
+}
+
+.HeaderPart2{
+    background-color: #D96940;
+    padding: 25px 17px;
+}
+
+.Botões button{
+    padding: 17px 15px;
+    margin: 17px;
+    margin-top: 17px;
+    background: #8b3718;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-family: 14px;
+    transition: 0.4;
+    cursor: zoom-in;
+}
