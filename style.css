@@ -14,28 +14,49 @@ body{
 }
 
 .Header{
-    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
     background-color: #D83425;
-    padding: 50px, 120px;
+    padding: 50px 120px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
 .Header h1{
-    display: left;
-    font-size: 96px;
-    font-weight: 300;
+
+    margin-left: 150px;
+    display: flex;
+    font-size: 76px;
     font-family: 'Irish Grover';
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-.hero-text h3{
+.imagem{
+    margin-top: -30px;
+    width: 1100px;
+    height: 190px;
+    padding: 20px 20px;
+    gap: 10px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.hero-text h2{
+    margin-top: -80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 30px;
+    text-align: start;
     font-family: 'Irish Grover';
 }
+
 
 .hero-text button{
     padding: 17px;
@@ -44,11 +65,11 @@ body{
 
 .HeaderPart2{
     background-color: #D96940;
-    padding: 25px 17px;
+    padding: 20px 157px;
 }
 
 .Botões button{
-    padding: 17px 15px;
+    padding: 15px 65px;
     margin: 17px;
     margin-top: 17px;
     background: #8b3718;
@@ -58,5 +79,17 @@ body{
     border-radius: 6px;
     font-family: 14px;
     transition: 0.4;
-    cursor: zoom-in;
+    cursor: pointer;
+}
+
+
+.HeaderPart3{
+    background-attachment: fixed;
+    height: 100vh;
+    background: url('./pizzaoi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
 }
