@@ -84,14 +84,15 @@ body{
 
 
 .HeaderPart3{
-    position: absolute;
+    margin-bottom: -100px;
     left: 0;
     width: 100%;    
-    height: 100vh;
+    height: 1000px;
     background-image: linear-gradient(to top, transparent 0%, #3a3a3a 90%), url('./pizzaoi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
     
 }
 
@@ -112,9 +113,16 @@ body{
 }
 
 .textopart2{
-    margin-top: -190px;
+    margin-top: 100px;
+    margin-bottom: 500px;
     margin-left: 395px;
     font-size: 46px;
     font-family: 'Jolly Lodger';
+}
+
+.Headerpart4{
+    background-color: #852cd8;
+    padding: 30px 30px;
+    margin-top: 40px;
 }
 
